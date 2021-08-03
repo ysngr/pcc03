@@ -18,7 +18,6 @@ void draw() {
 void initPoints() {
 
   ps = new PVector[70];
-
   for ( int i = 0; i < ps.length; i++ ) {
     ps[i] = new PVector(random(width)+d(), random(height)+d(), random(40, 400));
   }
@@ -32,13 +31,13 @@ void bloom() {
   final color[] cs = {
     color(227, 236, 244), 
     color(112, 148, 192), 
-    color( 56, 90, 158), 
+    color( 56,  90, 158), 
     color(234, 235, 235), 
     color(212, 212, 211), 
-    color( 51, 49, 115), 
+    color( 51,  49, 115), 
     color(232, 211, 207), 
     color(204, 104, 117), 
-    color(164, 125, 90)
+    color(164, 125,  90)
   };
 
   int n;
